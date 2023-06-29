@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="dark-theme">
+    <header><h1>Simple website</h1></header>
+    <nav>
+        <h2 id="tree-label">File Viewer</h2>
+<div role="tree" aria-labelledby="tree-label">
+  <div role="treeitem" aria-expanded="false" tabindex="0">Uploads</div>
+</div>
+    </nav>
+    <main>
+        <h1>Task List</h1>
+    <p id="msg">Current tasks:</p>
+    <ul>
+      <li class="list">Add visual styles</li>
+      <li class="list">Add light and dark themes</li>
+      <li>Enable switching the theme</li>
+      <li><a href="#" aria-label="Widget description">description</a></li>
+    </ul>
+    </main>
+    <aside>
+        <div>
+            <button class="btn">Dark</button>
+          </div>
+    </aside>
+    <footer>Footer</footer>
+    <script src="app.js"></script>
+    <noscript>You need to Enable JavaScript to view the full site</noscript>
+</body>
+</html>
